@@ -36,4 +36,35 @@
 19. git log // to view all the commits.
 20. git log -n 1 // to view latest one of the commits.
 21. git log --oneline // it displays the all commits in the single lines.
-22. 
+
+
+22. git tags
+    a.  first we have to check the branch
+        git checkout master
+
+    b. create a tag 
+       git tag <tag name> 
+       git tag v1.0
+
+    c. to check the tag
+       git tag
+    
+    d. to create annotated tag
+       git tag -a v1.0 -m "this is a tag release ver 1.0"
+
+    e. display the tags
+       git tag
+       git show v1.0
+       git tag -l "v1.*"
+
+    f. push the tag to remote repository
+       git push origin v1.0
+       git push --tags // this push all the tags
+
+    g. delete the tags
+       git tag -d v1.0
+       git tag -delete v1.0
+
+    
+
+
