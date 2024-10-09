@@ -65,6 +65,7 @@
        git tag -delete v1.0
 
     
-
+23. git rollback
+    git revert last commit id // to revert the last commit.
 
 
