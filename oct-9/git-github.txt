@@ -1,0 +1,20 @@
+1. What is git ? 
+    Version control system(vcs) for traking changes in computer files
+        distrubuted Version control 
+        coordinates work between multiple developes
+        who made what changes and when
+        revert back at any time
+        local and remote repositories.
+  
+  Basic Commands:
+
+2. git init  // initilization of git repository
+3. git add <file> // Add file to index
+4. git status // Update status of git repository
+5. git commit -m "" //commit changes to index
+6. git push // Push to the remote repository
+7. git pull // Pull latest changes form remote repository
+8. git --version // it shows the version of git
+
+
+ 
