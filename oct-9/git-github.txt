@@ -16,5 +16,17 @@
 7. git pull // Pull latest changes form remote repository
 8. git --version // it shows the version of git
 
+9. git branch // it shows the branchs
+10. git branch new-branch-name // to create new branch
+11. git checkout -b new-branch-name // to create new branch and switch to new branch.
+12. git checkout new-branch-name // to switch to new branch
+13. git branch -D new-branch-name // to delete the branch
 
- 
+14. git merge // to merge the branchs
+
+15. git remote add origin "https://github.com/sumanthg2904/daily-tasks.git" // to add a remote repository to your local Git repository
+16. git remote // to list the remote repositories
+
+
+17. git push -u origin branch-name // to push the latest changes in local repo to the remote repository.
+
