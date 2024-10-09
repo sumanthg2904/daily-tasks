@@ -22,7 +22,8 @@
 12. git checkout new-branch-name // to switch to new branch
 13. git branch -D new-branch-name // to delete the branch
 
-14. git merge // to merge the branchs
+14. git merge branch-name// to merge the branchs
+
 
 15. git remote add origin "https://github.com/sumanthg2904/daily-tasks.git" // to add a remote repository to your local Git repository
 16. git remote // to list the remote repositories
@@ -30,3 +31,9 @@
 
 17. git push -u origin branch-name // to push the latest changes in local repo to the remote repository.
 
+18. git clone git-hub url // to clone the remote repository.
+
+19. git log // to view all the commits.
+20. git log -n 1 // to view latest one of the commits.
+21. git log --oneline // it displays the all commits in the single lines.
+22. 
