@@ -6,16 +6,17 @@ Initialize Repository
 
 git init
 Initializes a new Git repository.
-Add Files
 
+Add Files
 git add <file>
 Stages a file for commit.
-Check Status
 
+Check Status
 git status
 Displays the current status of the repository.
-Commit Changes
 
+
+Commit Change
 git commit -m "<message>"
 Commits staged changes with a message.
 Push Changes
